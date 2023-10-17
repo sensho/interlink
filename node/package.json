@@ -1,0 +1,15 @@
+{
+    "scripts": {
+        "dev": "tsc && node dist/src/index.js",
+        "chains": "tsc && node dist/src/chains.js"
+    },
+    "devDependencies": {
+        "dotenv": "^16.0.3",
+        "ganache": "^7.7.3",
+        "ts-node": "^10.9.1",
+        "typescript": "^4.9.4"
+    },
+    "dependencies": {
+        "ethers": "^5.7.2"
+    }
+}
